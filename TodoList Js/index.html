@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>To do list</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="font-awesome.css">
+    </head>
+    <body>
+        <ul class="navbar">
+            <li class="nav"><a href="../index.html">Home</a></li>
+            <li class="nav"><a class="active" href="../TodoList Js/index.html">ToDoList</a></li>
+            <li class="nav"><a href="../JavaScript Calculator/index.html">JS Calculator</a></li>
+            <li class="nav"><a href="../GuessMyNumber/index.html">Guess my number</a></li>
+            <li class="nav"><a href="../PigGame/index.html">Pig Game</a></li>
+          </ul>
+
+        <div class="frame">
+            <div class="title">
+                ToDoList
+            </div>
+            <div class="inputField">
+                <input type="text">
+                <button class="btnInsert">+</button>
+            </div>
+            <ul class="ToDoList">
+                <li><input type="checkbox" class="checked">Buy apples <span>X</span></li>
+                <li>Buy food <span><i class="fa-vials"></i></span></li>
+                <li>Buy apples <span><i class="fa-vials"></i></span></li>
+                <li>Buy food <span><i class="fa-vials"></i></span></li>
+                <li>Buy apples <span><i class="fa-vials"></i></span></li>
+                <li>Buy food <span><i class="fa-vials"></i></span></li>
+                <li>Buy apples <span><i class="fa-vials"></i></span></li>
+                <li>Buy food <span><i class="fa-vials"></i></span></li>
+            </ul>
+            <div class="footer">
+                <div class ="numberOfTasks">
+                    <div class="text">You have -1 pending tasks</div>
+                    <button class="deleteAll">Clear all tasks</button>
+                </div>
+            </div>
+        </div>
+        <div style=" max-width: 500px; margin-left: auto; margin-right: auto; margin-top: 15px; font-size: 20px;">
+            The ToDoList items are saved in the local storage of browser.
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>

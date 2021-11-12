@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:linear-gradient(to right, rgb(143, 112, 119), rgb(117, 90, 165));
+}
+.frame{
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+}
+.title{
+    font-size: 27px;
+    height: 35px;
+    line-height: 35px;
+}
+.inputField{
+    display: flex;
+    width: 100%;
+}
+.inputField input{
+    height: 45px;
+    line-height: 45px;
+    width: 75%;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.btnInsert{
+    -webkit-appearance: none;
+    height: 50px;
+    width: 60px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.ToDoList{
+    max-height: 250px;
+    overflow-y: auto;
+}
+ul{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+li{
+    position: relative;
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 5px;
+    background-color: rgb(211, 211, 211);
+    margin-bottom: 8px;
+}
+.delete-button{
+    position: absolute;
+    right: 1px;
+    height: 100%;
+    width: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(155, 155, 155);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.delete-button:hover{
+    background-color: red;
+    transform: scale(1.1);
+    right:5px
+}
+.text{
+    max-width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.deleteAll{
+    border: 0px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+li span{
+    position: absolute;
+    right: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rebeccapurple;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 46px;
+    line-height: 50px;
+  }
+  
+  .nav {
+    float: left;
+    background-color: #333;
+    height: 46px;
+
+  }
+  
+ .nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    line-height: 18px;
+  }
+  
+  .nav a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
